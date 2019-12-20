@@ -1,40 +1,82 @@
-/* * {
-    border: 1px solid;
+* {
+    /* border: 1px solid; */
     margin: 0;
     padding:0;
-} */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
 
 body {
-    /* background-image: url('https://img.freepik.com/free-vector/weather-pattern_1061-487.jpg?size=338&ext=jpg'); */
+    background-image: url('https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-size: 2000px;
+    background-position: center;
+    background-repeat: repeat;
     height: 100%;
-    background-color: linear-gradient(90deg, rgba(228, 228, 228, 0.02) 0%, rgba(228, 228, 228, 0.02) 18%,rgba(4, 4, 4, 0.02) 18%, rgba(4, 4, 4, 0.02) 19%,rgba(114, 114, 114, 0.02) 19%, rgba(114, 114, 114, 0.02) 49%,rgba(81, 81, 81, 0.02) 49%, rgba(81, 81, 81, 0.02) 60%,rgba(14, 14, 14, 0.02) 60%, rgba(14, 14, 14, 0.02) 81%,rgba(115, 115, 115, 0.02) 81%, rgba(115, 115, 115, 0.02) 87%,rgba(211, 211, 211, 0.02) 87%, rgba(211, 211, 211, 0.02) 93%,rgba(25, 25, 25, 0.02) 93%, rgba(25, 25, 25, 0.02) 100%),linear-gradient(90deg, rgba(221, 221, 221, 0.1) 0%, rgba(221, 221, 221, 0.1) 9%,rgba(46, 46, 46, 0.1) 9%, rgba(46, 46, 46, 0.1) 33%,rgba(227, 227, 227, 0.1) 33%, rgba(227, 227, 227, 0.1) 49%,rgba(148, 148, 148, 0.1) 49%, rgba(148, 148, 148, 0.1) 51%,rgba(62, 62, 62, 0.1) 51%, rgba(62, 62, 62, 0.1) 54%,rgba(202, 202, 202, 0.1) 54%, rgba(202, 202, 202, 0.1) 86%,rgba(242, 242, 242, 0.1) 86%, rgba(242, 242, 242, 0.1) 96%,rgba(34, 34, 34, 0.1) 96%, rgba(34, 34, 34, 0.1) 100%),linear-gradient(90deg, rgba(83, 83, 83, 0.08) 0%, rgba(83, 83, 83, 0.08) 19%,rgba(160, 160, 160, 0.08) 19%, rgba(160, 160, 160, 0.08) 39%,rgba(93, 93, 93, 0.08) 39%, rgba(93, 93, 93, 0.08) 41%,rgba(131, 131, 131, 0.08) 41%, rgba(131, 131, 131, 0.08) 52%,rgba(40, 40, 40, 0.08) 52%, rgba(40, 40, 40, 0.08) 61%,rgba(204, 204, 204, 0.08) 61%, rgba(204, 204, 204, 0.08) 65%,rgba(55, 55, 55, 0.08) 65%, rgba(55, 55, 55, 0.08) 82%,rgba(233, 233, 233, 0.08) 82%, rgba(233, 233, 233, 0.08) 100%),linear-gradient(90deg, rgb(61, 95, 175),rgb(123, 196, 183),rgb(71, 40, 162));
+    background-color: rgb(143, 159, 189);
+    font-family: 'Noto Sans', sans-serif;
+    color:rgb(70, 70, 70);
 }
 
 /*MAIN APP*/
 #app {
-    width: 480px;
-    height: 480px;
-    margin: 80px auto;
+    width: 430px;
+    height: 550px;
+    margin: 70px auto;
     text-align: center;
     background-color:white;
     border-radius: 20px;
     padding:20px;
 }
 
+.headline {
+    font-size: 32px;
+    margin: 25px 0 0 0;
+    text-shadow: 0px 0px 5px rgb(238, 186, 255);
+    color: rgb(250, 114, 159);
+}
+
+.entry {
+    font-size: 18px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 4px 1px rgba(153, 153, 153, 0.719);
+    width: 300px;
+    padding-top: 15px
+
+}
+
+#entryHolder {
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+}
+
 /*FORM*/
 #zip {
-    width: 250px;
-
+    border: .5px solid rgb(187, 187, 187);
+    width: 290px;
+    height: 30px;
+    margin: 15px 0;
+    padding-left: 10px;
+    font-size: 16px;
+    color:rgb(91, 91, 91);
 }
 
 #feelings {
-
-    width:250px;
-    
+    border: .5px solid rgb(187, 187, 187);
+    width: 290px;
+    height: 150px;
+    margin-bottom: 15px;
+    padding: 10px 0 0 10px;
+    font-size: 16px;
+    color:rgb(91, 91, 91);
 }
 
 button {
-
+    width: 300px;
+    height: 35px;
+    font-size: 15px;
+    background-color: #ED85A7;
+    color:white;
 }
 
 

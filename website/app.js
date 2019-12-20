@@ -46,9 +46,9 @@ const updateUI = async () => {
   try {
     const allData = await request.json();
     console.log(allData);
-    document.getElementById('date').innerHTML = '<strong>date:</strong> ' + allData.newPost.date;
-    document.getElementById('temp').innerHTML = '<strong>temp:</strong> ' + kelvinToF(allData.newPost.temp);
-    document.getElementById('content').innerHTML = '<strong>feelings:</strong> ' +  allData.newPost.feelings;
+    document.getElementById('date').innerHTML = '<strong>Date:</strong> ' + allData.newPost.date;
+    document.getElementById('temp').innerHTML = '<strong>Temperature:</strong> ' + kelvinToF(allData.newPost.temp);
+    document.getElementById('content').innerHTML = '<strong>Feelings:</strong> ' +  allData.newPost.feelings;
   } catch(error) {
     console.log('error', error);
   }

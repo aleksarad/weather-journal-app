@@ -1,7 +1,8 @@
-#Weather Journal App
+# Weather Journal App
+
 This is an asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.
 
-#How to view
+# How to view
 1. download project files
 2. install node.js
 3. npm install express

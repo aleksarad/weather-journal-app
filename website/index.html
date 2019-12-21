@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Weather Journal</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Weather Journal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
- <body>
-<div id = "app">
-  <div class ="holder headline">
-    Weather Journal
+<body>
+  <div id = "app">
+    <div class ="holder headline">
+      Weather Journal
+    </div>
+    <div class ="holder zip">
+      <input type="number" id="zip" placeholder="Enter your zipcode">
+    </div>
+    <div class ="holder feel">
+      <textarea maxlength ="200" class= "myInput" id="feelings" placeholder="How are you feeling today?" rows="9" cols="50"></textarea>
+      <br>
+      <button id="generate" type = "submit"> Submit Entry </button>
+    </div>
+    <div class ="holder entry">
+      <div class = "title">Most Recent Entry</div>
+      <div id = "entryHolder">
+        <div id = "date"></div> 
+        <div id = "temp"></div>
+        <div id = "content"></div>
+    </div>
+    </div>
   </div>
-  <div class ="holder zip">
-    <input type="number" id="zip" placeholder="Enter your zipcode">
-  </div>
-  <div class ="holder feel">
-    <textarea maxlength ="200" class= "myInput" id="feelings" placeholder="How are you feeling today?" rows="9" cols="50"></textarea>
-    <br>
-    <button id="generate" type = "submit"> Submit Entry </button>
-  </div>
-  <div class ="holder entry">
-    <div class = "title">Most Recent Entry</div>
-   <div id = "entryHolder">
-    <div id = "date"></div> 
-    <div id = "temp"></div>
-    <div id = "content"></div>
-  </div>
-  </div>
-</div>
-<script src="app.js" type="text/javascript"></script>
-
+  <script src="app.js" type="text/javascript"></script>
 </body>
 </html>

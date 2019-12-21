@@ -4,7 +4,7 @@ This is an asynchronous web app that uses OpenWeatherMap API and user data to dy
 
 # How to view
 1. download project files
-2. install node.js
+2. must have node.js installed
 3. npm install express
 4. npm install body-parser
 5. npm install cors
